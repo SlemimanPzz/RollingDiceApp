@@ -14,6 +14,9 @@
 		CF9C36622A169755003DF70B /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C36612A169755003DF70B /* DiceRollerTests.swift */; };
 		CF9C366C2A169755003DF70B /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C366B2A169755003DF70B /* DiceRollerUITests.swift */; };
 		CF9C366E2A169755003DF70B /* DiceRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C366D2A169755003DF70B /* DiceRollerUITestsLaunchTests.swift */; };
+		CF9C367F2A16B5DE003DF70B /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C367E2A16B5DE003DF70B /* Roll.swift */; };
+		CF9C36802A16B5DE003DF70B /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C367E2A16B5DE003DF70B /* Roll.swift */; };
+		CF9C36812A16B5DE003DF70B /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C367E2A16B5DE003DF70B /* Roll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		CF9C36672A169755003DF70B /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9C366B2A169755003DF70B /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
 		CF9C366D2A169755003DF70B /* DiceRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF9C367E2A16B5DE003DF70B /* Roll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CF9C364F2A169754003DF70B /* DiceRollerApp.swift */,
+				CF9C367E2A16B5DE003DF70B /* Roll.swift */,
 				CF9C36512A169754003DF70B /* ContentView.swift */,
 				CF9C36532A169755003DF70B /* Assets.xcassets */,
 				CF9C36552A169755003DF70B /* DiceRoller.entitlements */,
@@ -261,6 +266,7 @@
 			files = (
 				CF9C36522A169754003DF70B /* ContentView.swift in Sources */,
 				CF9C36502A169754003DF70B /* DiceRollerApp.swift in Sources */,
+				CF9C367F2A16B5DE003DF70B /* Roll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9C36802A16B5DE003DF70B /* Roll.swift in Sources */,
 				CF9C36622A169755003DF70B /* DiceRollerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +285,7 @@
 			files = (
 				CF9C366C2A169755003DF70B /* DiceRollerUITests.swift in Sources */,
 				CF9C366E2A169755003DF70B /* DiceRollerUITestsLaunchTests.swift in Sources */,
+				CF9C36812A16B5DE003DF70B /* Roll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
