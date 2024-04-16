@@ -15,9 +15,11 @@ struct Roll: View {
     var body: some View {
         VStack{
             Text("Roll")
-                .font(.title)
+                .font(.largeTitle)
                 .fontWeight(.heavy)
+                .foregroundColor(Color("AccentColor"))
                 .multilineTextAlignment(.center)
+                .padding()
             Spacer()
             let rolled = rollDice()
             if rolls.filter({i in i.0 != 0}).isEmpty {
